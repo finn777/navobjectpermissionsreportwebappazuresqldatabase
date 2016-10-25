@@ -1,0 +1,7 @@
+http://therealdanvega.com/blog/2015/11/03/spring-boot-connect-to-azure-sql-server-database
+https://www.microsoft.com/en-us/download/details.aspx?displaylang=en&id=11774
+
+mvn install:install-file -Dfile=C:\Distr\_Java\sqljdbcdownloadmicrosoft\sqljdbc_6.0.7728.100_enu\sqljdbc_6.0\enu\sqljdbc4.jar -DgroupId=com.microsoft.sqlserver -DartifactId=sqljdbc4 -Dversion=4.0 -Dpackaging=jar
+mvn install:install-file -Dfile=C:\Distr\_Java\sqljdbcdownloadmicrosoft\sqljdbc_6.0.7728.100_enu\sqljdbc_6.0\enu\sqljdbc42.jar -DgroupId=com.microsoft.sqlserver -DartifactId=sqljdbc4 -Dversion=4.2 -Dpackaging=jar
+
+http://stackoverflow.com/questions/31570075/accessing-azure-database-firewall-issue

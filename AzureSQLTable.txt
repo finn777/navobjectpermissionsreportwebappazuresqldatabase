@@ -1,0 +1,68 @@
+===
+USE [navobjectpermissionsreportsqldatabase]
+GO
+
+/****** Object:  Table [dbo].[data]    Script Date: 20.10.2016 15:23:36 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[data](
+	[dataid] [int] IDENTITY(1,1) NOT NULL,
+	[modulename] [varchar](80) NULL,
+	[objecttype] [varchar](80) NULL,
+	[description] [varchar](80) NULL,
+	[rangefrom] [bigint] NULL,
+	[rangeto] [bigint] NULL,
+	[pread] [varchar](10) NULL,
+	[pinsert] [varchar](10) NULL,
+	[pmodify] [varchar](10) NULL,
+	[pdelete] [varchar](10) NULL,
+	[pexecute] [varchar](10) NULL,
+	[productline] [varchar](80) NULL,
+	[moduleid] [bigint] NULL,
+	[versionname] [varchar](20) NULL,
+	[moduleid2] [bigint] NULL,
+ CONSTRAINT [PK_data] PRIMARY KEY CLUSTERED 
+(
+	[dataid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
+)
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+===
+
+create template for .fmt file:
+bcp data format nul -f C:\Users\alexef\IdeaProjects\data_format_csv.fmt -c -t ; -S alexef0test0navsqlserverazure.database.windows.net,1433 -d navobjectpermissionsreportsqldatabase -U <user> -P <password>
+
+modify .fmt for skip first column:
+---
+11.0
+14
+1       SQLCHAR             0       80      ";"      2     modulename                 SQL_Latin1_General_CP1_CI_AS
+2       SQLCHAR             0       80      ";"      3     objecttype                 SQL_Latin1_General_CP1_CI_AS
+3       SQLCHAR             0       80      ";"      4     description                SQL_Latin1_General_CP1_CI_AS
+4       SQLCHAR             0       21      ";"      5     rangefrom                  ""
+5       SQLCHAR             0       21      ";"      6     rangeto                    ""
+6       SQLCHAR             0       10      ";"      7     pread                      SQL_Latin1_General_CP1_CI_AS
+7       SQLCHAR             0       10      ";"      8     pinsert                    SQL_Latin1_General_CP1_CI_AS
+8       SQLCHAR             0       10      ";"      9     pmodify                    SQL_Latin1_General_CP1_CI_AS
+9       SQLCHAR             0       10      ";"      10    pdelete                    SQL_Latin1_General_CP1_CI_AS
+10      SQLCHAR             0       10      ";"      11    pexecute                   SQL_Latin1_General_CP1_CI_AS
+11      SQLCHAR             0       80      ";"      12    productline                SQL_Latin1_General_CP1_CI_AS
+12      SQLCHAR             0       21      ";"      13    moduleid                   ""
+13      SQLCHAR             0       20      ";"      14    versionname                SQL_Latin1_General_CP1_CI_AS
+14      SQLCHAR             0       21      "\r\n"   15    moduleid2                  ""
+
+---
+
+load data:
+bcp data in C:\Users\alexef\IdeaProjects\ObjectPermissionsexternal_CSV.csv -f C:\Users\alexef\IdeaProjects\data_format_csv.fmt -S alexef0test0navsqlserverazure.database.windows.net,1433 -d navobjectpermissionsreportsqldatabase -U <user> -P <password> -F2
