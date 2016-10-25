@@ -2,106 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da464caa-4172-4126-8cee-e096b9491748" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/navobjectpermissionsreportwebapp_azuresqldatabase_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/navobjectpermissionsreportwebapp_azuresqldatabase_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/navspringboot_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/navspringboot_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/navobjectpermissionsreportwebapp_azuresqldatabase/NavspringbootApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/navobjectpermissionsreportwebapp_azuresqldatabase/ServletInitializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/navobjectpermissionsreportwebapp_azuresqldatabase/controllers/MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/DataCrud.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/DataRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/Filter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/Row.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1.war.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/classes/navobjectpermissionsreportwebapp_azuresqldatabase/NavspringbootApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/classes/navobjectpermissionsreportwebapp_azuresqldatabase/ServletInitializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/classes/navobjectpermissionsreportwebapp_azuresqldatabase/controllers/MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/DataCrud.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/DataRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/Filter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/classes/navobjectpermissionsreportwebapp_azuresqldatabase/models/Row.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/jsp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/cdi-api-1.1-PFD.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/classmate-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/el-api-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/hibernate-core-5.2.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jackson-annotations-2.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jackson-core-2.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jackson-databind-2.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jandex-2.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/javax.transaction-api-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jsr250-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/jul-to-slf4j-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/log4j-over-slf4j-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/logback-classic-1.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/logback-core-1.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-aop-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-aspects-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-beans-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-boot-1.4.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-boot-autoconfigure-1.4.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-boot-starter-1.4.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-boot-starter-aop-1.4.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-boot-starter-data-jpa-1.4.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-boot-starter-jdbc-1.4.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-boot-starter-logging-1.4.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-boot-starter-tomcat-1.4.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-boot-starter-web-1.4.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-context-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-core-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-data-commons-1.12.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-data-jpa-1.10.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-expression-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-jdbc-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-orm-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-tx-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-web-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/spring-webmvc-4.3.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/sqljdbc4-4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/tomcat-embed-core-8.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/tomcat-embed-el-8.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/tomcat-embed-websocket-8.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/tomcat-jdbc-8.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/tomcat-juli-8.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebapp_azuresqldatabase-1/WEB-INF/lib/xml-apis-1.4.01.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/navobjectpermissionsreportwebapp_azuresqldatabase.iml" afterPath="$PROJECT_DIR$/navobjectpermissionsreportwebappazuresqldatabase.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/NavspringbootApplication.java" afterPath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/NavspringbootApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/ServletInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/ServletInitializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/controllers/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/controllers/MainController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/models/Data.java" afterPath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/models/Data.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/models/DataCrud.java" afterPath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/models/DataCrud.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/models/DataRepository.java" afterPath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/models/DataRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/models/Filter.java" afterPath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/models/Filter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/models/Row.java" afterPath="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/models/Row.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebappazuresqldatabase-1.war" afterPath="$PROJECT_DIR$/target/navobjectpermissionsreportwebappazuresqldatabase-1.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebappazuresqldatabase-1.war.original" afterPath="$PROJECT_DIR$/target/navobjectpermissionsreportwebappazuresqldatabase-1.war.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/navobjectpermissionsreportwebappazuresqldatabase-1/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/target/navobjectpermissionsreportwebappazuresqldatabase-1/WEB-INF/jsp/index.jsp" />
     </list>
     <ignored path="navspringboot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9825641">
+            <state vertical-scroll-proportion="0.0">
               <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -167,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.5022831">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -181,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+              <caret line="2" column="82" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -276,13 +182,13 @@
         <option value="$PROJECT_DIR$/src/main/java/navspringboot/NavspringbootApplication.java" />
         <option value="$PROJECT_DIR$/AzureSQLTable.txt" />
         <option value="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/models/DataCrud.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/models/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebapp_azuresqldatabase/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/SQLDriver.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
       </list>
     </option>
   </component>
@@ -408,9 +314,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -539,6 +444,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1373,6 +1279,7 @@
       <workItem from="1477298039977" duration="193000" />
       <workItem from="1477304645553" duration="1646000" />
       <workItem from="1477379795115" duration="46000" />
+      <workItem from="1477389250814" duration="183000" />
     </task>
     <servers />
   </component>
@@ -1385,7 +1292,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107008000" />
+    <option name="totallyTimeSpent" value="107191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1406,12 +1313,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23311897" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23311897" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5019841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41425508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41425508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1419,14 +1327,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39770868" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39770868" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920557" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5024826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1790,14 +1697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SQLDriver.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1830,21 +1729,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/navobjectpermissionsreportwebappazuresqldatabase/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9825641">
+        <state vertical-scroll-proportion="0.0">
           <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="82" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5022831">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
