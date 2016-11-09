@@ -1,43 +1,23 @@
 ===
-USE [navobjectpermissionsreportsqldatabase]
-GO
+// hide excel sheet, Data Static
 
-/****** Object:  Table [dbo].[data]    Script Date: 20.10.2016 15:23:36 ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
-SET ANSI_PADDING ON
-GO
-
-CREATE TABLE [dbo].[data](
-	[dataid] [int] IDENTITY(1,1) NOT NULL,
-	[modulename] [varchar](80) NULL,
-	[objecttype] [varchar](80) NULL,
-	[description] [varchar](80) NULL,
-	[rangefrom] [bigint] NULL,
-	[rangeto] [bigint] NULL,
-	[pread] [varchar](10) NULL,
-	[pinsert] [varchar](10) NULL,
-	[pmodify] [varchar](10) NULL,
-	[pdelete] [varchar](10) NULL,
-	[pexecute] [varchar](10) NULL,
-	[productline] [varchar](80) NULL,
-	[moduleid] [bigint] NULL,
-	[versionname] [varchar](20) NULL,
-	[moduleid2] [bigint] NULL,
- CONSTRAINT [PK_data] PRIMARY KEY CLUSTERED 
-(
-	[dataid] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
-)
-
-GO
-
-SET ANSI_PADDING OFF
-GO
+CREATE TABLE [dbo].[data] (
+    [dataid]      INT          IDENTITY (1, 1) NOT NULL,
+    [modulename]  VARCHAR (80) NULL,
+    [objecttype]  VARCHAR (80) NULL,
+    [description] VARCHAR (80) NULL,
+    [rangefrom]   BIGINT       NULL,
+    [rangeto]     BIGINT       NULL,
+    [pread]       VARCHAR (10) NULL,
+    [pinsert]     VARCHAR (10) NULL,
+    [pmodify]     VARCHAR (10) NULL,
+    [pdelete]     VARCHAR (10) NULL,
+    [pexecute]    VARCHAR (10) NULL,
+    [productline] VARCHAR (80) NULL,
+    [moduleid]    BIGINT       NULL,
+    [versionname] VARCHAR (20) NULL,
+    CONSTRAINT [PK_data] PRIMARY KEY CLUSTERED ([dataid] ASC)
+);
 ===
 
 create template for .fmt file:
@@ -46,7 +26,7 @@ bcp data format nul -f C:\Users\alexef\IdeaProjects\data_format_csv.fmt -c -t ; 
 modify .fmt for skip first column:
 ---
 11.0
-14
+13
 1       SQLCHAR             0       80      ";"      2     modulename                 SQL_Latin1_General_CP1_CI_AS
 2       SQLCHAR             0       80      ";"      3     objecttype                 SQL_Latin1_General_CP1_CI_AS
 3       SQLCHAR             0       80      ";"      4     description                SQL_Latin1_General_CP1_CI_AS
@@ -59,8 +39,7 @@ modify .fmt for skip first column:
 10      SQLCHAR             0       10      ";"      11    pexecute                   SQL_Latin1_General_CP1_CI_AS
 11      SQLCHAR             0       80      ";"      12    productline                SQL_Latin1_General_CP1_CI_AS
 12      SQLCHAR             0       21      ";"      13    moduleid                   ""
-13      SQLCHAR             0       20      ";"      14    versionname                SQL_Latin1_General_CP1_CI_AS
-14      SQLCHAR             0       21      "\r\n"   15    moduleid2                  ""
+13      SQLCHAR             0       20      "\r\n"   14    versionname                SQL_Latin1_General_CP1_CI_AS
 
 ---
 

@@ -8,7 +8,7 @@ public interface DataRepository extends Repository<Data, Long> {
 
     List<Data>
     findByObjecttypeAndRangefromLessThanEqualAndRangetoGreaterThanEqualOrderByModulenameAscProductlineAscVersionnameAscDataidAsc
-            (String objecttype, Long objectid, Long objectid2);
+            (String objecttype,Long objectid, Long objectid2);
     // Query creation from method names
 
 } // class DataRepository

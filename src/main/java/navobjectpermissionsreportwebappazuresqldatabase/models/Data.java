@@ -6,27 +6,25 @@ import java.util.ArrayList;
 /*
 existing table:
 
-CREATE TABLE [dbo].[data](
-	[dataid] [int] IDENTITY(1,1) NOT NULL,
-	[modulename] [varchar](80) NULL,
-	[objecttype] [varchar](80) NULL,
-	[description] [varchar](80) NULL,
-	[rangefrom] [bigint] NULL,
-	[rangeto] [bigint] NULL,
-	[pread] [varchar](10) NULL,
-	[pinsert] [varchar](10) NULL,
-	[pmodify] [varchar](10) NULL,
-	[pdelete] [varchar](10) NULL,
-	[pexecute] [varchar](10) NULL,
-	[productline] [varchar](80) NULL,
-	[moduleid] [bigint] NULL,
-	[versionname] [varchar](20) NULL,
-	[moduleid2] [bigint] NULL,
- CONSTRAINT [PK_data] PRIMARY KEY CLUSTERED
-(
-	[dataid] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)
-)
+// hide excel sheet, Data Static
+
+CREATE TABLE [dbo].[data] (
+    [dataid]      INT          IDENTITY (1, 1) NOT NULL,
+    [modulename]  VARCHAR (80) NULL,
+    [objecttype]  VARCHAR (80) NULL,
+    [description] VARCHAR (80) NULL,
+    [rangefrom]   BIGINT       NULL,
+    [rangeto]     BIGINT       NULL,
+    [pread]       VARCHAR (10) NULL,
+    [pinsert]     VARCHAR (10) NULL,
+    [pmodify]     VARCHAR (10) NULL,
+    [pdelete]     VARCHAR (10) NULL,
+    [pexecute]    VARCHAR (10) NULL,
+    [productline] VARCHAR (80) NULL,
+    [moduleid]    BIGINT       NULL,
+    [versionname] VARCHAR (20) NULL,
+    CONSTRAINT [PK_data] PRIMARY KEY CLUSTERED ([dataid] ASC)
+);
 */
 
 
@@ -55,7 +53,6 @@ public class Data {
   private String productline;
   private Long moduleid;
   private String versionname;
-  private Long moduleid2;
 
 
   // ------------------------
@@ -68,7 +65,7 @@ public class Data {
     this.dataid = dataid;
   }
 
-  public Data(String modulename, String objecttype, String description, Long rangefrom, Long rangeto, String pread, String pinsert, String pmodify, String pdelete, String pexecute, String productline, Long moduleid, String versionname, Long moduleid2) {
+  public Data(String modulename, String objecttype, String description, Long rangefrom, Long rangeto, String pread, String pinsert, String pmodify, String pdelete, String pexecute, String productline, Long moduleid, String versionname) {
     this.modulename = modulename;
     this.objecttype = objecttype;
     this.description = description;
@@ -82,7 +79,6 @@ public class Data {
     this.productline = productline;
     this.moduleid = moduleid;
     this.versionname = versionname;
-    this.moduleid2 = moduleid2;
   }
 
     public ArrayList<String> getTypes() {
@@ -216,11 +212,4 @@ public class Data {
     this.versionname = versionname;
   }
 
-  public Long getModuleid2() {
-    return moduleid2;
-  }
-
-  public void setModuleid2(Long moduleid2) {
-    this.moduleid2 = moduleid2;
-  }
 } // class Data
